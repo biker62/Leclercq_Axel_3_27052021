@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+
+/*header*/
+
+/*localisation*/
+
+.localisation{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 13px;
+    &__icone{
+        margin-right: 1rem;
+    }
+    &__texte{
+        font-size: 13px;
+        font-weight: 800;
+    }
+}
+
+/*reservation*/
+.reservation{
+    background-color: #fafafa;
+    &__titre{
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &__soustitre{
+        font-size: 15px;
+        font-weight: 300;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+}

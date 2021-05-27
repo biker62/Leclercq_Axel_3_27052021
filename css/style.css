@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+/*header*/
+/*localisation*/
+.localisation {
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+  font-size: 13px;
+}
+
+.localisation__icone {
+  margin-right: 1rem;
+}
+
+.localisation__texte {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/*reservation*/
+.reservation {
+  background-color: #fafafa;
+}
+
+.reservation__titre {
+  font-weight: bold;
+  text-align: center;
+}
+
+.reservation__soustitre {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 15px 0;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
