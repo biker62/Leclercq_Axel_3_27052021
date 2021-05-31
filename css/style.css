@@ -41,4 +41,11 @@ body {
   margin: 15px 0;
   text-align: center;
 }
+
+.reservation__reservation__bouton {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: fuchsia;
+  margin-right: 20px;
+}
 /*# sourceMappingURL=style.css.map */
