@@ -51,8 +51,55 @@ body {
 }
 
 /*Fonctionnements*/
-/*Restaurants*/
-.restaurant {
+.Fonctionnement {
+  text-align: center;
+}
+
+.Fonctionnement__restaurant {
   background-color: #fafafa;
+  border-radius: 2rem;
+  text-decoration: none;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Fonctionnement__composition {
+  background-color: #fafafa;
+  border-radius: 2rem;
+  text-decoration: none;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Fonctionnement__degustation {
+  background-color: #fafafa;
+  border-radius: 2rem;
+  text-decoration: none;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*Restaurants*/
+.Restaurants {
+  background-color: #fafafa;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

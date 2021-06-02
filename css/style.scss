@@ -47,10 +47,39 @@ body{
 }
 
 /*Fonctionnements*/
+.Fonctionnement{
+    text-align: center;
+    &__restaurant{
+    background-color:#fafafa;
+    border-radius: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    }
 
+    &__composition{
+     background-color: #fafafa;
+    border-radius: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    }
+
+    &__degustation{
+    background-color: #fafafa;
+    border-radius: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;    
+    }
+}
 
 /*Restaurants*/
 
-.restaurant{
+.Restaurants{
     background-color: #fafafa;
+    text-align: center;
     }
