@@ -87,7 +87,7 @@ font-weight: 600;
     &__etapes{
         display: grid;
     }
-    
+
     &__chiffre{
         background-color: #9356dc;
         color: white;
@@ -161,4 +161,11 @@ font-weight: 600;
         top: 20px;
         font-size: 25px;
     }
+}
+
+/*footer*/
+.footer{
+  background-color: #3a3434;
+  color: white;
+  padding: 1rem;
 }

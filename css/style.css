@@ -193,4 +193,11 @@ body {
   top: 20px;
   font-size: 25px;
 }
+
+/*footer*/
+.footer {
+  background-color: #3a3434;
+  color: white;
+  padding: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
