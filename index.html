@@ -10,9 +10,11 @@
 </head>
 <body>
     <!-- HEADER -->
-
+    <header class="header">
+        <h1 class="header__titre">ohmyfood</h1>
+    </header>
     <!-- MAIN -->
-
+    <main class="main">
         <!-- LOCALISATION -->
         <section class="localisation">
             <i class="fas fa-map-marker-alt localisation__icone"></i> 
@@ -29,27 +31,96 @@
 
         <!-- FONCTIONNEMENT -->
         <section class="Fonctionnement">
-        <h2 class="Fonctionnement__titre">Fonctionnement</h2>
-        <button class="Fonctionnement__restaurant">Choisissez un restaurant</button>
-        <button class="Fonctionnement__composition">Composez votre menu</button>
-        <button class="Fonctionnement__degustation">Dégustez au restaurant</button>               
+            <h2 class="Fonctionnement__titre">Fonctionnement</h2>
+            <div class="Fonctionnement__etapes">
+                <button class="Fonctionnement__bouton">
+                    <span class="Fonctionnement__chiffre">1</span>
+                    <span class="Fonctionnement__icone">
+                        <i class="fas fa-mobile-alt"></i>
+                    </span>
+                    <span class="Fonctionnement__texte">Choisissez un restaurant</span>  
+                </button>
+                <button class="Fonctionnement__bouton">
+                    <span class="Fonctionnement__chiffre">1</span>
+                    <span class="Fonctionnement__icone">
+                        <i class="fas fa-list-ul"></i>
+                    </span>
+                    <span class="Fonctionnement__texte">Composez votre menu</span>  
+                </button>
+                <button class="Fonctionnement__bouton">
+                    <span class="Fonctionnement__chiffre">1</span>
+                    <span class="Fonctionnement__icone">
+                        <i class="fas fa-store"></i>
+                    </span>
+                    <span class="Fonctionnement__texte">Dégustez au restaurant</span>  
+                </button>              
+            </div>
+
         </section>
 
         <!-- RESTAURANTS -->
         <section class="Restaurants">
-        <h2 class="Restaurants__titre">Restaurants</h2>
-        <div class="Restaurants__goût">
-        <h3 class="Restaurants__palette">La palette du goût</h3>
-        <figure class="Restaurants__plat">
-        <img src="images/accueil/exemple-de-plat-au-restaurant.jpg">
-       </figure>
+            <h2 class="Restaurants__titre">Restaurants</h2>
+            <div class="Restaurants__vignettes">
+                <a href="#" class="Restaurants__vignette">
+                    <img src="images/accueil/exemple-de-plat-au-restaurant.jpg" class="Restaurants__image">
+                    <span class="Restaurants__nouveau">Nouveau</span>
+                    <div class="Restaurants__footer">
+                        <h3 class="Restaurants__nom">Restaurant Paris Henin</h3>
+                        <span class="Restaurants__adresse">Rue de guise</span>
+                        <span class="Restaurants__coeur">
+                            <i class="far fa-heart"></i>
+                        </span>
+                    </div>
+                </a>
+                <a href="#" class="Restaurants__vignette">
+                    <img src="images/accueil/exemple-de-plat-au-restaurant.jpg" class="Restaurants__image">
+                    <span class="Restaurants__nouveau">Nouveau</span>
+                    <div class="Restaurants__footer">
+                        <h3 class="Restaurants__nom">Restaurant Paris Henin</h3>
+                        <span class="Restaurants__adresse">Rue de guise</span>
+                        <span class="Restaurants__coeur">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                </a>
+                <a href="#" class="Restaurants__vignette">
+                    <img src="images/accueil/exemple-de-plat-au-restaurant.jpg" class="Restaurants__image">
+                    <span class="Restaurants__nouveau">Nouveau</span>
+                    <div class="Restaurants__footer">
+                        <h3 class="Restaurants__nom">Restaurant Paris Henin</h3>
+                        <span class="Restaurants__adresse">Rue de guise</span>
+                        <span class="Restaurants__coeur">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                </a>
+                <a href="#" class="Restaurants__vignette">
+                    <img src="images/accueil/exemple-de-plat-au-restaurant.jpg" class="Restaurants__image">
+                    <span class="Restaurants__nouveau">Nouveau</span>
+                    <div class="Restaurants__footer">
+                        <h3 class="Restaurants__nom">Restaurant Paris Henin</h3>
+                        <span class="Restaurants__adresse">Rue de guise</span>
+                        <span class="Restaurants__coeur">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                </a>
 
-    </div>
-  
-
+            </div>
         </section>
 
 
+
+
+    </main>
+
+
     <!-- FOOTER -->
+    <footer class="footer">
+
+
+
+    </footer>
 </body>
 </html>
