@@ -18,7 +18,7 @@
         <!-- LOCALISATION -->
         <section class="localisation">
             <i class="fas fa-map-marker-alt localisation__icone"></i> 
-            <span class="localisation__texte">Paris, Belleville</span>
+            <input type="text" class="localisation__texte" placeholder="Paris, Belleville"></input>
         
         </section>
         <!-- RESERVATION -->
@@ -41,14 +41,14 @@
                     <span class="Fonctionnement__texte">Choisissez un restaurant</span>  
                 </button>
                 <button class="Fonctionnement__bouton">
-                    <span class="Fonctionnement__chiffre">1</span>
+                    <span class="Fonctionnement__chiffre">2</span>
                     <span class="Fonctionnement__icone">
                         <i class="fas fa-list-ul"></i>
                     </span>
                     <span class="Fonctionnement__texte">Composez votre menu</span>  
                 </button>
                 <button class="Fonctionnement__bouton">
-                    <span class="Fonctionnement__chiffre">1</span>
+                    <span class="Fonctionnement__chiffre">3</span>
                     <span class="Fonctionnement__icone">
                         <i class="fas fa-store"></i>
                     </span>
@@ -62,7 +62,7 @@
         <section class="Restaurants">
             <h2 class="Restaurants__titre">Restaurants</h2>
             <div class="Restaurants__vignettes">
-                <a href="#" class="Restaurants__vignette">
+                <a href="paris_henin.html" class="Restaurants__vignette">
                     <img src="images/accueil/exemple-de-plat-au-restaurant.jpg" class="Restaurants__image">
                     <span class="Restaurants__nouveau">Nouveau</span>
                     <div class="Restaurants__footer">
@@ -80,7 +80,7 @@
                         <h3 class="Restaurants__nom">Le ferrailleur</h3>
                         <span class="Restaurants__adresse">Rue de Beaumont</span>
                         <span class="Restaurants__coeur">
-                            <i class="fas fa-heart"></i>
+                            <i class="far fa-heart"></i>
                         </span>
                     </div>
                 </a>
@@ -91,7 +91,7 @@
                         <h3 class="Restaurants__nom">A l'Atelier</h3>
                         <span class="Restaurants__adresse">Rue de Berlin</span>
                         <span class="Restaurants__coeur">
-                            <i class="fas fa-heart"></i>
+                            <i class="far fa-heart"></i>
                         </span>
                     </div>
                 </a>
@@ -102,7 +102,7 @@
                         <h3 class="Restaurants__nom">Restaurant Beers&co</h3>
                         <span class="Restaurants__adresse">Rue de noyelles</span>
                         <span class="Restaurants__coeur">
-                            <i class="fas fa-heart"></i>
+                            <i class="far fa-heart"></i>
                         </span>
                     </div>
                 </a>
@@ -118,13 +118,27 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-    <h2 class="titre">ohmyfood</h2>
-    <h3 class="Proposez">Proposez un restaurant</h3>
-    <h3 class="Partenariat">Devenir partenaire</h3>
-    <h3 class="Mentions">Mentions légales</h3>
-    <h3 class="Contact">Contact</h3>
-
-
+        <span class="footer__titre">ohmyfood</span>
+        <ul class="footer__liste">
+            <li class="footer__listeElement">
+                <a href="#" class="footer__lien">
+                    <i class="footer__icone fas fa-utensils"></i>
+                    Proposez un restaurant
+                </a>
+            </li>
+            <li class="footer__listeElement">
+                <a href="#" class="footer__lien">
+                    <i class="footer__icone fas fa-hands-helping"></i>   
+                    Devenir partenaire
+                </a>
+            </li>
+            <li class="footer__listeElement">
+                <a href="#" class="footer__lien">Mentions légales</a>
+            </li>
+            <li class="footer__listeElement">
+                <a href="mailto:contact@ohmyfood.com" class="footer__lien">Contact</a>
+            </li>
+        </ul>
     </footer>
 </body>
 </html>

@@ -43,6 +43,32 @@ body {
 
 .localisation__texte {
   font-weight: 800;
+  border: none;
+  background-color: transparent;
+}
+
+.localisation__texte::-webkit-input-placeholder {
+  color: #000;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.localisation__texte:-ms-input-placeholder {
+  color: #000;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.localisation__texte::-ms-input-placeholder {
+  color: #000;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.localisation__texte::placeholder {
+  color: #000;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 /*reservation*/
@@ -179,7 +205,7 @@ body {
 }
 
 .Restaurants__nom {
-  margin: 0 0 0 0.25rem;
+  margin: 0 0 0.25rem 0;
   width: 100%;
 }
 
@@ -199,5 +225,32 @@ body {
   background-color: #3a3434;
   color: white;
   padding: 1rem;
+}
+
+.footer__titre {
+  font-family: 'Shrikhand', "cursive";
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.footer__liste {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__listeElement {
+  margin: 0.5rem 0;
+}
+
+.footer__lien {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__icone {
+  width: 15px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
