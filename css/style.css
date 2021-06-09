@@ -15,6 +15,7 @@ body {
   padding: 1rem;
   -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  position: relative;
 }
 
 .header__titre {
@@ -22,6 +23,16 @@ body {
   text-align: center;
   margin: 0;
   font-weight: 600;
+}
+
+.header__fleche {
+  position: absolute;
+  left: 2rem;
+  top: 1.9rem;
+  width: 2rem;
+  height: 2rem;
+  color: black;
+  font-size: 1.2rem;
 }
 
 /*localisation*/
@@ -252,5 +263,87 @@ body {
 .footer__icone {
   width: 15px;
   margin-right: 10px;
+}
+
+/*pagemenu*/
+.menu {
+  margin: -4rem auto 0;
+  border-radius: 2rem 2rem 0 0;
+  background-color: #f6f6f6;
+  z-index: 1;
+  position: relative;
+  max-width: 1440px;
+}
+
+.menu__header {
+  padding: 1rem 2rem 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__titre {
+  font-family: 'Shrikhand', "cursive";
+  margin: 2px 0 0 0;
+  font-weight: 600;
+}
+
+.menu__coeur {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.menu__main {
+  display: -ms-grid;
+  display: grid;
+}
+
+.liste {
+  padding: 1rem;
+  display: inherit;
+}
+
+.liste__titre {
+  text-transform: uppercase;
+  position: relative;
+  padding: 0 0 0.5rem 0;
+  font-weight: normal;
+}
+
+.liste__titre::after {
+  content: "";
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99e2d0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.liste__item {
+  background-color: #fff;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0.75rem;
+  margin: 1rem 0;
+  max-width: 100%;
+  position: relative;
+  cursor: pointer;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=style.css.map */
