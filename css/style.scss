@@ -357,11 +357,13 @@ font-weight: 600;
         box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.10);
 
         &:hover{
+            /* Apparition du truc vert */
             .liste__validation{
                 opacity:1;
                 margin-right: -1rem;
             }
 
+            /* Rotation de l'icone */
             .liste__icone i{
                 animation: rotate 0.5s 0.1s both;
             }
@@ -441,6 +443,7 @@ font-weight: 600;
 }
 
 
+/* Premier élément des entrées */
 .liste:nth-child(1) .liste__item:nth-of-type(1) {
     animation-delay: 0.1s;
 }
@@ -453,6 +456,7 @@ font-weight: 600;
     animation-delay: 0.3s;
 }
 
+/* Premier élément des plats */
 .liste:nth-child(2) .liste__item:nth-of-type(1) {
     animation-delay: 0.4s;
 }
@@ -465,6 +469,7 @@ font-weight: 600;
     animation-delay: 0.6s;
 }
 
+/* Premier élément des desserts*/
 .liste:nth-child(3) .liste__item:nth-of-type(1) {
     animation-delay: 0.7s;
 }
