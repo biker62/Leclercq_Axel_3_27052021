@@ -344,7 +344,7 @@ font-weight: 600;
     }
     &__item{
         overflow: hidden;
-        animation: slide-up 1s both;
+        animation: slide-up 1s;
         background-color: #fff;
         padding: 1rem;
         display: flex;
@@ -365,7 +365,7 @@ font-weight: 600;
 
             /* Rotation de l'icone */
             .liste__icone i{
-                animation: rotate 0.5s 0.1s both;
+                animation: rotate 0.5s 0.1s;
             }
         }
     }
